@@ -16,7 +16,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-import BookBrainzData from 'bookbrainz-data';
+import BookBrainzData from '../src/data/index';
 import config from '../config/test.json';
 
 

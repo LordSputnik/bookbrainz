@@ -24,7 +24,7 @@ import * as error from '../common/helpers/error';
 import * as search from '../common/helpers/search';
 import * as serverErrorHelper from './helpers/error';
 import {existsSync, readFileSync} from 'fs';
-import BookBrainzData from 'bookbrainz-data';
+import BookBrainzData from '../data/index';
 import Debug from 'debug';
 import {get as _get} from 'lodash';
 import appCleanup from '../common/helpers/appCleanup';

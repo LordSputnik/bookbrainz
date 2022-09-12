@@ -33,7 +33,7 @@ import type {
 	FormPublisherT as Publisher,
 	FormReleaseEventT as ReleaseEvent,
 	Transaction
-} from 'bookbrainz-data/lib/func/types';
+} from '../../../data/func/types';
 import {escapeProps, generateProps} from '../../helpers/props';
 
 import {AuthorCreditRow} from '../../../client/entity-editor/author-credit-editor/actions';

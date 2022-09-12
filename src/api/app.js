@@ -20,7 +20,7 @@
 /* eslint-disable node/no-process-env */
 
 import * as search from '../common/helpers/search';
-import BookBrainzData from 'bookbrainz-data';
+import BookBrainzData from '../data/index';
 import Debug from 'debug';
 import {get as _get} from 'lodash';
 import appCleanup from '../common/helpers/appCleanup';
